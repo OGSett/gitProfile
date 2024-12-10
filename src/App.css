@@ -1,0 +1,559 @@
+
+
+
+@media (min-width: 1280px) {
+  body {
+    background-color: #20293A;
+    height: 100vh;
+    font-family: 'Inter', sans-serif
+  }
+  
+  .searchHolder {
+    background-image: url('../public/images/hero-image-github-profile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 33vh;
+  }
+  
+  .inputHolder {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    padding-top: 2%;
+    position: relative;
+    /* width: 12%; */
+  }
+  .wa3 {
+    background-color: #111729;
+    width: 680px;
+    border-radius: 10px;
+    justify-self: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .imageCheck {
+   width: 80px;
+   height: 80px;
+   margin: 10px;
+  }
+  
+  .foundedProf {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .tester1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .inputHolder input {
+    padding: 0 40px;
+    height: 50px;
+    width: 600px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #4A5567;
+  }
+  .hide {
+    display: none;
+  }
+  
+  .allrepos {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .ss {
+    color: #b5bbc4;
+  }
+  .compWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .check {
+    position: absolute;
+    left: 5px;
+    bottom: 13px;
+  }
+  .searchHolderq {
+    /* height: 67vh; */
+    
+  }
+  
+  .partOne {
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 13%;;
+    gap: 50px;
+  }
+  .test2 {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+  }
+  .basicInfo {
+    background-color: #111729;
+    padding: 5px 10px;
+    height: 30%;
+    width: auto;
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  .gitWelcome {
+    padding: 0 13%;
+  
+  }
+  .gitWelcome h1 {
+    color: #CDD5E0;
+    font-size: 38px;
+  }
+  .gitWelcome p {
+    color: #b5bbc4;
+    letter-spacing: 1px;
+  }
+  
+  .BIspan {
+    color: #4A5567;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #CDD5E0;
+  }
+  
+  .BIspanValue {
+    color: #CDD5E0;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imgProfileHolder img {
+    width: 120px;
+    height: 120px;
+    border-radius: 7px;
+  }
+  
+  .result {
+    display: flex;
+    flex-direction: row;
+  }
+  .imgProfileHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    border-radius: 10px;
+    height: 140px;
+    background-color: #20293A;
+  }
+  .rposWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    padding: 0 13%;
+  
+  }
+  .repoHolder {
+    background-image: linear-gradient(to right, #111729, #1D1B48);
+    display: flex;
+    border-radius: 10px;
+    padding-right: 40px;
+    flex-direction: column;
+  }
+  
+  .repoInfoWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    gap: 20px;
+    margin: 10px 20px;
+  }
+  
+  .repoDesc {
+    color: #b5bbc4;
+    font-size: small;
+    margin: 10px 20px;
+  }
+  
+  .repoInfo {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    color: #4A5567;
+  
+  }
+  
+  
+  .repoTitle {
+    color: #CDD5E0;
+    font-size: larger;
+    margin: 20px;
+  }
+}
+@media (max-width: 1279.9px) {
+  body {
+    background-color: #20293A;
+    height: 100vh;
+    font-family: 'Inter', sans-serif
+  }
+  
+  .searchHolder {
+    background-image: url('../public/images/hero-image-github-profile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 33vh;
+  }
+  
+  .inputHolder {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    padding-top: 2%;
+    position: relative;
+    /* width: 12%; */
+  }
+  .wa3 {
+    background-color: #111729;
+    width: 580px;
+    border-radius: 10px;
+    justify-self: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .imageCheck {
+   width: 80px;
+   height: 80px;
+   margin: 10px;
+  }
+  
+  .foundedProf {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .tester1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    /* padding-left: 10%; */
+  }
+  .inputHolder input {
+    padding: 0 40px;
+    height: 50px;
+    width: 500px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #4A5567;
+  }
+  .hide {
+    display: none;
+  }
+  
+  .allrepos {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .ss {
+    color: #b5bbc4;
+  }
+  .compWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .check {
+    position: absolute;
+    left: 5px;
+    bottom: 13px;
+  }
+  .searchHolderq {
+    /* height: 67vh; */
+    
+  }
+  
+  .partOne {
+    display: flex;
+    position: absolute;
+    top: 27%;
+    left: 13%;;
+    gap: 30px;
+  }
+  .test2 {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+  }
+  .basicInfo {
+    display: flex;
+    text-align: center;
+    background-color: #111729;
+    padding: 5px 10px;
+    height: 30%;
+    width: auto;
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  .gitWelcome {
+    padding: 0 13%;
+  
+  }
+  .gitWelcome h1 {
+    color: #CDD5E0;
+    font-size: 38px;
+  }
+  .gitWelcome p {
+    color: #b5bbc4;
+    letter-spacing: 1px;
+  }
+  
+  .BIspan {
+    color: #4A5567;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #CDD5E0;
+  }
+  
+  .BIspanValue {
+    color: #CDD5E0;
+    /* font-size: 12px; */
+    /* font-weight: bold; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .imgProfileHolder img {
+    width: 120px;
+    height: 120px;
+    border-radius: 7px;
+  }
+  
+  .result {
+    display: flex;
+    flex-direction: row;
+  }
+  .imgProfileHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    border-radius: 10px;
+    height: 140px;
+    background-color: #20293A;
+  }
+  .rposWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+    column-gap: 20px;
+    /* padding: 0 13%; */
+    width: 70%;
+  
+  }
+  .repoHolder {
+    background-image: linear-gradient(to right, #111729, #1D1B48);
+    display: flex;
+    border-radius: 10px;
+    /* padding-right: 40px; */
+    flex-direction: column;
+  }
+  
+  .repoInfoWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    gap: 5px;
+    margin: 50px 10px;
+  }
+  
+  .repoDesc {
+    color: #b5bbc4;
+    font-size: small;
+    margin: 10px 20px;
+  }
+  
+  .repoInfo {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    color: #4A5567;
+  
+  }
+  
+  
+  .repoTitle {
+    color: #CDD5E0;
+    font-size: larger;
+    margin: 20px;
+  }
+
+  .rposWrapper img{
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 640px) {
+  body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .compWrapper {
+    gap: 200px;
+  }
+  .BIspan {
+    
+  }
+
+  .imgProfileHolder  img{
+    width: 90%;
+    height: 90%;
+  }
+  .searchHolder {
+    background-size: cover;
+    background-image: url('../public/images/hero-image-github-profile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    /* gap: 10px; */
+    }
+
+    .imageCheck {
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+    }
+
+    .rposWrapper {
+      display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 13%;
+    /* width: 40%; */
+    }
+
+    .inputHolder input {
+      padding: 0 40px;
+      height: 50px;
+      width: 250px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      background-color: #4A5567;
+  }
+
+  .wa3 {
+    background-color: #111729;
+    width: 370px;
+    border-radius: 10px;
+    justify-self: center;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-right: 10px;
+  }
+
+  .partOne {
+    display: flex;
+    gap: 10px;
+  }
+
+  .imgProfileHolder {
+    position: absolute;
+    left: -30px;
+    top: -60px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .test2 {
+    position: absolute;
+    /* top: -60px; */
+    left: 80px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+        align-items: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+
+  .basicInfo {
+    gap: 10px;
+    padding: 15px;
+    width: max-content;
+    margin: 0;
+    
+  }
+  .basicInfo span {
+    font-size: small;
+    
+  }
+
+  .repoInfo {
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    color: #4A5567;
+    font-size: small;
+  }
+
+  .wa3 span {
+    color: #b5bbc4;
+    font-size: small;
+  }
+
+  .repoInfoWrapper {
+    gap: 5px;
+  }
+
+}
